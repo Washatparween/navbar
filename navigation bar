@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARKA JAIN UNIVERSITY</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SCHOOLS & PROGRAMMES</a>
+        <a href="#">ACADEMICS</a>
+        <a href="#">PLACEMENTS</a>
+        <a href="#">CAREER</a>
+        <a href="#">CAMPUS LIFE</a>
+        <a href="#">ADMISSIONS</a>
+    </div>
+    
+</body>
+</html>
+.navbar{
+    background-color: rgb(229, 229, 49);
+    overflow: hidden;
+}
+.navbar a {
+float: left;
+display: block;
+color: rgb(15, 14, 13);
+text-align: center;
+padding: 14px 16px;
+text-decoration-color: black;
+font-size: medium;
+}
+body{
+    background-image: url(slide-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
